@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:id="@+id/layout_backgrounp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:alpha="0.95"
+    android:background="@color/color_background_key"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/touch_shape_line_hor" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layoutNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <vn.com.sonca.Touch.Keyboard.GroupKeyBoardNumber
+                android:id="@+id/GroupKeyBoardNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <vn.com.sonca.Touch.Keyboard.BaseKey
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+                <vn.com.sonca.Touch.Keyboard.BaseKey
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+                <vn.com.sonca.Touch.Keyboard.BaseKey
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+                <vn.com.sonca.Touch.Keyboard.BaseKey
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+                <vn.com.sonca.Touch.Keyboard.BaseKey
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+                <vn.com.sonca.Touch.Keyboard.BaseKey
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+                <vn.com.sonca.Touch.Keyboard.BaseKey
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+                <vn.com.sonca.Touch.Keyboard.BaseKey
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+                <vn.com.sonca.Touch.Keyboard.BaseKey
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+                <vn.com.sonca.Touch.Keyboard.BaseKey
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+            </vn.com.sonca.Touch.Keyboard.GroupKeyBoardNumber>
+        </LinearLayout>
+
+        <vn.com.sonca.Touch.Keyboard.GroupKeyBoard
+            android:id="@+id/GroupKeyBoard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.Touch.Keyboard.BaseKey
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </vn.com.sonca.Touch.Keyboard.GroupKeyBoard>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:splitMotionEvents="false" >
+    
+    <vn.com.sonca.Touch.CustomView.LanguageSongTypeFirstItemView
+        android:id="@+id/songtype_listview_firstItem"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:visibility="visible" />
+    
+    <vn.com.sonca.Touch.CustomView.LanguageSongTypeRemainItemView
+        android:id="@+id/songtype_listview_remainItem"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:visibility="gone" />
+    
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="3" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewSwitch1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewSwitch2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewSwitch3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewSwitch4"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewSwitch5"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewSwitch6"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewSwitch7"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewSwitch8"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewSwitch9"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

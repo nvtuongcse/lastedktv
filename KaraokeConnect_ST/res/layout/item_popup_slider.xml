@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <vn.com.sonca.Touch.CustomView.SliderView
+        android:id="@+id/mySlider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <vn.com.sonca.Touch.CustomView.SliderMuteView
+        android:id="@+id/myMute"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/mySlider"
+        android:layout_toRightOf="@+id/mySlider" />
+
+</RelativeLayout>

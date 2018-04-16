@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vn.com.sonca.Touch.CustomView.TouchSingerItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/singer_gridview_item"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" />

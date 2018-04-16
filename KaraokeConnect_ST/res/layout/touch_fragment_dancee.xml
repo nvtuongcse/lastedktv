@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/vn.com.hanhphuc.karremote"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:splitMotionEvents="false"
+    android:weightSum="6" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:splitMotionEvents="false"
+        android:weightSum="4" >
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="3" />
+
+        <vn.com.sonca.Touch.CustomView.TouchVolumnView
+            android:id="@+id/VolumnView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="4"
+        android:gravity="center_horizontal"
+        android:splitMotionEvents="false"
+        android:orientation="vertical" >
+
+        <vn.com.sonca.Touch.CustomView.TouchSearchDance
+            android:id="@+id/SearchDance"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp" />
+
+        <vn.com.sonca.Touch.CustomView.TouchListView
+            android:id="@+id/listView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.91"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"
+            app:expanded_height="10dip"
+            app:grabber="@+id/icon_baichon"
+            app:normal_height="150dip"
+            app:remove_mode="slideLeft"
+            android:splitMotionEvents="false" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="6"
+        android:splitMotionEvents="false" >
+
+        <vn.com.sonca.Touch.CustomView.TouchDanceView
+            android:id="@+id/DanceView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_weight="2" />
+
+        <vn.com.sonca.Touch.CustomView.TouchRepeatView
+            android:id="@+id/repeatView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        
+        <vn.com.sonca.Touch.CustomView.TouchPauseView
+            android:id="@+id/pauseView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <vn.com.sonca.Touch.CustomView.TouchNextView
+            android:id="@+id/NextView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="Theme.MyAppTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_2</item>
+    </style>
+
+</resources>

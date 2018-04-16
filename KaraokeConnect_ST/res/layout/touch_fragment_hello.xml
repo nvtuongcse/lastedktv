@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/viewBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignRight="@+id/listDeviceView"
+        android:layout_marginRight="0dp"
+        android:alpha="0.95"
+        android:background="@color/color_background_key" />
+
+    <RelativeLayout
+        android:id="@+id/listDeviceView"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearHello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <vn.com.sonca.Touch.CustomView.TouchGroupHello
+                android:id="@+id/TouchGroupHello"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" >
+
+                <vn.com.sonca.Touch.CustomView.TouchHelloView
+                    android:id="@+id/TouchHelloView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" />
+
+                <EditText
+                    android:id="@+id/EditTextDong1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:inputType="textNoSuggestions"
+                    android:singleLine="true"
+                    android:text="Ag"
+                    android:textColor="@color/color_hello_1"
+                    android:textCursorDrawable="@null" />
+
+                <EditText
+                    android:id="@+id/EditTextDong2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:inputType="textNoSuggestions"
+                    android:singleLine="true"
+                    android:text="Ag"
+                    android:textColor="@color/color_hello_1"
+                    android:textCursorDrawable="@null" />
+
+                <ImageView
+                    android:id="@+id/imagedong1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/touch_del_icon_72x72" />
+
+                <ImageView
+                    android:id="@+id/imagedong2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/touch_del_icon_72x72" />
+            </vn.com.sonca.Touch.CustomView.TouchGroupHello>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <vn.com.sonca.Touch.CustomView.TouchSettingView
+                android:id="@+id/TouchSettingView"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/viewLine"
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:layout_alignRight="@+id/listDeviceView"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/touch_shape_line_ver" />
+
+</RelativeLayout>

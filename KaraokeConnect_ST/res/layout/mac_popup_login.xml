@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/mainbg" >
+
+    <vn.com.sonca.mac.MacPopupLogin
+        android:id="@+id/macPopupLogin"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"/>
+    
+    <vn.com.sonca.mac.MacKeyboard
+        android:id="@+id/macKeyboard"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

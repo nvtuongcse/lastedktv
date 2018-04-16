@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vn.com.hanhphuc.karremote"
+    android:versionCode="1327600"
+    android:versionName="2.7.7" >
+	<!-- version code format: xx.y.z.tt
+		xx	:type: 12->tablet; 13->TouchScreen
+		y	:major version
+		z	:minor version
+		tt	:build for minor version
+	 -->
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+	<uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    
+	<!--uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.portrait"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" /-->
+        
+    <!--uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.sec.android.permission.PERSONAL_MEDIA" />
+    <uses-permission android:name="com.android.setting.permission.ALLSHARE_CAST_SERVICE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+   	<uses-permission android:name="android.permission.DISABLE_KEYGUARD"/-->
+    
+   	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:requiresSmallestWidthDp="650"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+   
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:name="vn.com.sonca.zzzzz.MyApplication"
+        android:largeHeap="true" >
+        
+        <!-- <receiver
+	        android:name="vn.com.sonca.Touch.touchcontrol.TouchLaunchReceiver"
+	        android:enabled="true"
+            android:exported="false" >
+	        <intent-filter >
+	            <action android:name="android.intent.action.SCREEN_ON" />
+	            <action android:name="android.intent.action.BOOT_COMPLETED" />
+	        </intent-filter>
+    	</receiver> -->
+        
+        <activity
+            android:label="@string/app_name"
+            android:configChanges="orientation"
+            android:launchMode="singleInstance"
+            android:screenOrientation="sensorLandscape" 
+           	android:name="vn.com.sonca.Touch.touchcontrol.SplashActivity"
+            android:theme="@style/Theme.MyAppTheme" >
+            <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter> -->            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" /> 
+               	<category android:name="android.intent.category.HOME"/>
+        		 <category android:name="android.intent.category.DEFAULT" /> 
+             </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.moonbelly.youtube.YoutubePlayerActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="sensorLandscape" />
+         
+        <activity
+            android:launchMode="singleInstance"
+            android:screenOrientation="sensorLandscape" 
+            android:name="vn.com.sonca.Touch.touchcontrol.TouchMainActivity"
+            android:theme="@style/Theme.MyAppTheme" >     
+        </activity>
+        
+        <activity
+            android:launchMode="singleInstance"
+            android:screenOrientation="sensorLandscape" 
+            android:name="vn.com.sonca.ktv.karaoketouch.KTVMainActivity"
+            android:theme="@style/Theme.MyAppTheme" >
+        </activity>
+        
+                
+         <activity
+            android:name="vn.com.sonca.PlayLyric.PlayLyricActivity_Video"
+            android:label="@string/app_name" 
+             android:launchMode="singleInstance"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+        </activity>
+        
+         
+         <activity
+            android:name="vn.com.sonca.zktv.main.KTVMainActivity"
+            android:label="@string/app_name" 
+             android:launchMode="singleInstance"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+        </activity>
+                
+       <service android:name="vn.com.sonca.samba.StreamService" />
+        <service android:name="vn.com.sonca.WebServer.MyHTTPService" />
+    </application>
+</manifest>

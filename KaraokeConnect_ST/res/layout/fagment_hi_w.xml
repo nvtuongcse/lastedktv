@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LayoutScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <vn.com.sonca.Touch.Hi_W.TopHiWView
+            android:id="@+id/TopHiWView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <LinearLayout
+            android:id="@+id/layoutLeft"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <vn.com.sonca.Touch.Hi_W.MyTextView
+                    android:id="@+id/title_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <vn.com.sonca.Touch.Hi_W.InforFirmwareView
+                    android:id="@+id/infofrimware"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/viewline1"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutCenter"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <vn.com.sonca.Touch.Hi_W.MyTextView
+                    android:id="@+id/title_center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <vn.com.sonca.Touch.Hi_W.MyEditText
+                    android:id="@+id/edit_center1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <vn.com.sonca.Touch.Hi_W.CheckPassWifiView
+                    android:id="@+id/checkpass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <vn.com.sonca.Touch.Hi_W.MyEditText
+                    android:id="@+id/edit_center2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <vn.com.sonca.Touch.Hi_W.MyEditText
+                    android:id="@+id/edit_center3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/viewline2"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/touch_shape_line_ver" />
+        </LinearLayout>
+
+        <LinearLayout
+             android:id="@+id/layoutRight"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <vn.com.sonca.Touch.Hi_W.MyTextView
+                android:id="@+id/title_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <vn.com.sonca.Touch.Hi_W.CheckNetworkWifi
+                android:id="@+id/checkNet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <vn.com.sonca.Touch.Hi_W.MyEditText
+                android:id="@+id/edit_right1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <vn.com.sonca.Touch.Hi_W.MyEditText
+                android:id="@+id/edit_right2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:orientation="horizontal" >
+
+        <vn.com.sonca.Touch.Hi_W.BottomHiWView
+            android:id="@+id/BottomHiWView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+</LinearLayout>

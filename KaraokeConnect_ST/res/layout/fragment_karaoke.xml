@@ -1,0 +1,359 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:qwerjk="http://schemas.android.com/apk/res/vn.com.hanhphuc.karremote"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_karaoke_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lyric_background"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    <!-- android:background="@drawable/lyric_background" -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+	<tv.danmaku.ijk.media.widget.VideoView
+            android:id="@+id/myVideo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+
+        <!-- <VideoView
+            android:id="@+id/myVideo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+   -->
+        <ViewFlipper
+            android:id="@+id/myFlipper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:id="@+id/loadingPanel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" 
+    android:visibility="gone">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true" />
+    
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:orientation="vertical" >
+
+            <vn.com.sonca.ColorLyric.LyricBack
+                android:id="@+id/lyricBack"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.35" >
+
+            <vn.com.sonca.ColorLyric.MagicTextView
+                android:id="@+id/activity_karaoke_text1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textColor="#0000FF"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:visibility="visible"
+                qwerjk:outerShadowColor="#FF000000"
+                qwerjk:outerShadowDx="10dp"
+                qwerjk:outerShadowDy="10dp"
+                qwerjk:outerShadowRadius="5dp"
+                qwerjk:strokeColor="#ffffffff"
+                qwerjk:strokeJoinStyle="round"
+                qwerjk:strokeWidth="13dp" />
+
+            <LinearLayout
+                android:id="@+id/activity_karaoke_Control"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:visibility="invisible" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.12"
+                    android:orientation="horizontal" >
+
+                    <vn.com.sonca.Touch.CustomView.TouchPauseView
+                        android:id="@+id/karaoke_PausePlay_button"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.12" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.88" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.12"
+                    android:orientation="horizontal" >
+
+                    <vn.com.sonca.Touch.CustomView.TouchNextView
+                        android:id="@+id/karaoke_next_button"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.12" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.88" />
+                </LinearLayout>
+                
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.12"
+                    android:orientation="horizontal" >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.9" />
+
+                    <vn.com.sonca.Touch.CustomView.TouchSingerView
+                        android:id="@+id/SingerView"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.28" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.55"
+            android:orientation="vertical"
+            android:weightSum="3" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom" >
+
+                <ImageView
+                    android:id="@+id/activity_karaoke_counter_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:typeface="serif"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_karaoke_topline_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom" >
+
+                 <vn.com.sonca.ColorLyric.MagicTextView
+                    android:id="@+id/activity_karaoke_texttopline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="#FFFF00"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    qwerjk:outerShadowColor="#FF000000"
+                    qwerjk:outerShadowDx="10dp"
+                    qwerjk:outerShadowDy="10dp"
+                    qwerjk:outerShadowRadius="5dp"
+                    qwerjk:strokeColor="#ff000000"
+                    qwerjk:strokeJoinStyle="round"
+                    qwerjk:strokeWidth="13dp" />
+
+                 <vn.com.sonca.ColorLyric.SentenceTextView
+                    android:id="@+id/activity_karaoke_colortopline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/activity_karaoke_texttopline"
+                    android:ellipsize="none"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="#6df30c"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    qwerjk:outerShadowColor="#FF000000"
+                    qwerjk:outerShadowDx="10dp"
+                    qwerjk:outerShadowDy="10dp"
+                    qwerjk:outerShadowRadius="5dp"
+                    qwerjk:strokeColor="#ffffffff"
+                    qwerjk:strokeJoinStyle="round"
+                    qwerjk:strokeWidth="11dp" />
+
+                <ImageView
+                    android:id="@+id/activity_karaoke_IconTop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_karaoke_bottomline_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="top" >
+
+                 <vn.com.sonca.ColorLyric.MagicTextView
+                    android:id="@+id/activity_karaoke_textbottomline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="#FFFF00"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    qwerjk:outerShadowColor="#FF000000"
+                    qwerjk:outerShadowDx="10dp"
+                    qwerjk:outerShadowDy="10dp"
+                    qwerjk:outerShadowRadius="5dp"
+                    qwerjk:strokeColor="#ff000000"
+                    qwerjk:strokeJoinStyle="round"
+                    qwerjk:strokeWidth="13dp" />
+
+                <vn.com.sonca.ColorLyric.SentenceTextView
+                    android:id="@+id/activity_karaoke_colorbottomline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/activity_karaoke_textbottomline"
+                    android:ellipsize="none"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="#6df30c"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    qwerjk:outerShadowColor="#FF000000"
+                    qwerjk:outerShadowDx="10dp"
+                    qwerjk:outerShadowDy="10dp"
+                    qwerjk:outerShadowRadius="5dp"
+                    qwerjk:strokeColor="#ffffffff"
+                    qwerjk:strokeJoinStyle="round"
+                    qwerjk:strokeWidth="11dp" />
+
+                <ImageView
+                    android:id="@+id/activity_karaoke_IconBot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/activity_karaoke_textbottomline"
+                    android:visibility="visible" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_karaoke_InfoSong"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+          <vn.com.sonca.ColorLyric.MagicTextView
+            android:id="@+id/activity_karaoke_txtTitleSong"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="#0000FF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:visibility="visible"
+            qwerjk:outerShadowColor="#FF000000"
+            qwerjk:outerShadowDx="10dp"
+            qwerjk:outerShadowDy="10dp"
+            qwerjk:outerShadowRadius="5dp"
+            qwerjk:strokeColor="#ffffffff"
+            qwerjk:strokeJoinStyle="round"
+            qwerjk:strokeWidth="13dp" 
+            android:lineSpacingMultiplier="1.2"/>
+
+        <vn.com.sonca.ColorLyric.MagicTextView
+            android:id="@+id/activity_karaoke_txtAuthorSong"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:textColor="#FFFF00"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:visibility="visible"
+            qwerjk:outerShadowColor="#FF000000"
+            qwerjk:outerShadowDx="10dp"
+            qwerjk:outerShadowDy="10dp"
+            qwerjk:outerShadowRadius="5dp"
+            qwerjk:strokeColor="#ff000000"
+            qwerjk:strokeJoinStyle="round"
+            qwerjk:strokeWidth="13dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

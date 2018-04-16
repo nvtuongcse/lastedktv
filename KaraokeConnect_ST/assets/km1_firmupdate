@@ -1,0 +1,1 @@
+{"recommended_rom_version": "v2.0", "recommended_rom_revision":9688, "status": 200,"romServer":[{"size": 301521,"url":"https://kos.soncamedia.com/firmware/firmware/km1/km1_512_9688.zip"},{"size": 301534 ,"url":"https://kos.soncamedia.com/firmware/firmware/km1/km1_1024_9688.zip"}], "productRoms": [{"recommended": 1, "version": "v1.3", "revision":6217, "life_cycle": "beta"}]}

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <vn.com.sonca.Touch.CustomView.TouchMyDrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:splitMotionEvents="false" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ktv_backgroup"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layoutTop"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.15"
+                android:orientation="horizontal" >
+
+                <vn.com.sonca.zktv.main.ViewHome
+                    android:id="@+id/viewHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <vn.com.sonca.zktv.main.ViewStatus
+                    android:id="@+id/viewStatus"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" />
+
+                <vn.com.sonca.zktv.main.ViewDevice
+                    android:id="@+id/viewDevice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7" >
+
+                <LinearLayout
+                    android:id="@+id/layoutMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.05" />
+
+                    <FrameLayout
+                        android:id="@+id/fragMenu"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="0.9" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.05" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layoutData"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="visible" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.1"
+                            android:background="@drawable/ktv_song_boder_headsong" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.9"
+                            android:background="@drawable/ktv_song_boder_listsong" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+
+                        <LinearLayout
+                            android:id="@+id/layoutSongKeyboard"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:visibility="visible" >
+
+                            <FrameLayout
+                                android:id="@+id/fragKeyboard"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25" />
+
+                            <FrameLayout
+                                android:id="@+id/fragData"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.75" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layoutSongNoKey"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:visibility="gone" >
+
+                            <FrameLayout
+                                android:id="@+id/fragPlaylist"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.15"
+                android:weightSum="9" >
+
+                <vn.com.sonca.zktv.main.ViewMain
+                    android:id="@+id/viewCaocap"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" />
+
+                <vn.com.sonca.zktv.main.ViewMain
+                    android:id="@+id/viewWifi"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" />
+
+                <vn.com.sonca.zktv.main.ViewMain
+                    android:id="@+id/viewQuaBai"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" />
+
+                <vn.com.sonca.zktv.main.ViewMain
+                    android:id="@+id/viewTachLoi"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" />
+
+                <vn.com.sonca.zktv.main.ViewMain
+                    android:id="@+id/viewDance"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" />
+
+                <vn.com.sonca.zktv.main.ViewMain
+                    android:id="@+id/viewDachon"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" />
+
+                <vn.com.sonca.zktv.main.ViewMain
+                    android:id="@+id/viewGiamAm"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" />
+
+                <vn.com.sonca.zktv.main.ViewMain
+                    android:id="@+id/viewTangAm"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" />
+
+                <vn.com.sonca.zktv.main.ViewMain
+                    android:id="@+id/viewQuayLai"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutConnect"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="start"
+            android:orientation="vertical"
+            android:splitMotionEvents="false" >
+
+            <FrameLayout
+                android:id="@+id/fragmentConnect"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" >
+            </FrameLayout>
+        </LinearLayout>
+    </vn.com.sonca.Touch.CustomView.TouchMyDrawerLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:splitMotionEvents="false" >
+
+        <vn.com.sonca.zktv.FragPlaylist.NumberPlaylist
+            android:id="@+id/numberPlaylist"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="86dp"
+            android:layout_marginRight="482dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/layoutAnimation"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <vn.com.sonca.Touch.CustomView.TouchAnimationView
+                android:id="@+id/AnimationView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutSingerLink"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <vn.com.sonca.Touch.CustomView.TouchSingerLinkView
+                android:id="@+id/SingerLinkView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutLinkDance"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <vn.com.sonca.Touch.CustomView.TouchDanceLinkView
+                android:id="@+id/DanceLinkView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutDownload"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <vn.com.sonca.Touch.CustomView.TouchDownloadView
+                android:id="@+id/DownloadView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutColorLyric"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:splitMotionEvents="false"
+        android:visibility="gone" >
+
+        <FrameLayout
+            android:id="@+id/fragmentKaraoke1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:splitMotionEvents="false" />
+    </RelativeLayout>
+
+</RelativeLayout>

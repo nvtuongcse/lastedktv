@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<karconnect>
+  <info>
+    <vol>5604</vol>
+    <link_wp>database_wp.bin</link_wp>
+    <link_ios>database_star.bin</link_ios>
+    <link_and>database_star.bin</link_and>
+  </info>
+
+  <manufactures>
+    <models id="0" name="ACNOS">
+      <model toc="4" irc="0" en="1">
+        <name>ACNOS</name>
+        <details>Tất cả model đầu máy ACNOS</details>
+      </model>
+      <model toc="36" irc="0" en="1">
+        <name>BoomBox</name>
+        <details>Tất cả model boombox ACNOS</details>
+      </model>
+      <model toc="32" irc="3" en="1">
+        <name>Arirang 3600</name>
+        <details>AR-3600,AR-4500</details>
+      </model>
+      <model toc="32" irc="1" en="1">
+        <name>Arirang 36M</name>
+        <details>AR-36NR,AR-36D,AR-36M</details>
+      </model>
+      <model toc="32" irc="2" en="1">
+        <name>Arirang 36</name>
+        <details>AR-36</details>
+      </model>
+      <model toc="34" irc="5" en="1">
+        <name>VietKTV</name>
+        <details>VietKTV 2000Gb</details>
+      </model>
+      <model toc="33" irc="4" en="0">
+        <name>Music Core</name>
+        <details></details>
+      </model>
+    </models>
+  </manufactures>
+</karconnect>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="3" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewTheLoai1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewTheLoai2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewTheLoai3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewTheLoai4"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewTheLoai5"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewTheLoai6"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewTheLoai7"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewTheLoai8"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <vn.com.sonca.zktv.FragSwitch.ViewSwitch
+            android:id="@+id/viewTheLoai9"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

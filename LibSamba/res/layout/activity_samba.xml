@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:gravity="center_horizontal"
+    tools:context=".SambaActivity"
+    android:orientation="vertical">
+<Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:id="@+id/localMKV_NoEncryp"
+        android:text=" localMKV_NoEncryp "
+        android:layout_marginTop="20dp"
+        android:background="#FF00FF"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/localMKV_Encryp_H263"
+        android:text=" localMKV_Encryp_H263 "
+        android:layout_marginTop="20dp"
+        android:background="#FF00FF"/>
+     <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/localMKV_Encryp_H265"
+        android:text=" localMKV_Encryp_H265 "
+        android:layout_marginTop="20dp"
+        android:background="#FF00FF"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SambaMKV_NoEncryp"
+        android:text=" SambaMKV_NoEncryp "
+        android:layout_marginTop="20dp"
+        android:background="#FF00FF"/>
+     <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SambaMKV_Encryp_H263"
+        android:text=" SambaMKV_Encryp_H263 "
+        android:layout_marginTop="20dp"
+        android:background="#FF00FF"/>
+      <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SambaMKV_Encryp_H265"
+        android:text=" SambaMKV_Encryp_H265 "
+        android:layout_marginTop="20dp"
+        android:background="#FF00FF"/>
+    
+    <!-- for selecting WORKGROUP -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_selected_workgroup" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_workgroup"
+        android:spinnerMode="dropdown" />
+
+    <!-- for selecting file/folder -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_selected_file" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_file"
+        android:spinnerMode="dropdown" />
+
+
+    <!-- for show result LOGS -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_result" />
+        </ScrollView>
+
+    </RelativeLayout>
+  
+</LinearLayout>

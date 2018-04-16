@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_background_key">#004c8c</color>
+    <color name="color_black">#000000</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_orange">#feb34e</color>
+    <color name="frag_wifi_left">#eebae2</color>
+    <color name="frag_wifi_right">#faeaf6</color>
+    <color name="color_hello_0">#0ddd17</color>
+    <color name="color_hello_1">#818284</color>
+    <color name="background_1">#e1f5fe</color>
+    <color name="lyric_text_0">#B4FEFF</color>
+    <color name="lyric_text_1">#00FDFD</color>
+    <color name="lyric_text_2">#00BEFC</color>
+    <color name="lyric_text_3">#B4FEFF</color>
+    <color name="thong_bao_1">#B6FDFF</color>
+    <color name="dialog_control_1">#B4FEFF</color>
+    <color name="dialog_block_volumn_0">#00FDFD</color>
+    <color name="dialog_block_volumn_1">#B4FEFF</color>
+    <color name="color_mbackground">#003c6e</color>
+    
+    
+    <color name="ktv_color_song_1">#1b5e20</color>
+    <color name="ktv_color_song_2">#d50000</color>
+    <color name="ktv_color_song_3">#8bc34a</color>
+    <color name="ktv_color_song_4">#ffab00</color>
+    <color name="ktv_color_song_5">#2196f3</color>
+    <color name="ktv_color_song_6">#ff5722</color>
+    
+    <color name="ktv_color_image_1">#1b5e20</color>
+    <color name="ktv_color_image_2">#d50000</color>
+    <color name="ktv_color_image_3">#8bc34a</color>
+    <color name="ktv_color_image_4">#ffab00</color>
+    <color name="ktv_color_image_5">#2196f3</color>
+    <color name="ktv_color_image_6">#ff5722</color>
+    <color name="ktv_color_image_7">#6200ea</color>
+    <color name="ktv_color_image_8">#e91e63</color>
+    
+    <color name="ktv_color_image_9">#00bfa5</color>
+
+</resources>

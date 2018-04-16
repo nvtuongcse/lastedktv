@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/vn.com.hanhphuc.karremote"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:splitMotionEvents="false" >
+    
+    <LinearLayout 
+        android:id="@+id/layoutShowThongBao"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:visibility="invisible" >
+        <View 
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"/>
+        <TextView 
+            android:id="@+id/tvThongBao1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/thong_bao_1"
+            android:textSize="34sp"
+            android:text="@string/text_thong_bao_2"/>
+        <TextView 
+            android:id="@+id/tvThongBao2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/thong_bao_1"
+            android:textSize="34sp"
+            android:text="@string/text_thong_bao_2b"/>
+        <View 
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"/>
+    </LinearLayout>
+
+   <vn.com.sonca.Touch.CustomView.TouchListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:dividerHeight="0dp"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:listSelector="@android:color/transparent"
+        app:expanded_height="10dip"
+        app:grabber="@+id/icon_baichon"
+        app:normal_height="150dip"
+        app:remove_mode="slideLeft"
+        android:splitMotionEvents="false" />
+
+
+</RelativeLayout>

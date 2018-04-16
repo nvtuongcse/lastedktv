@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <app.sonca.Dialog.ScoreLayout.MainScoreViewGroup
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_score_backgroud" />
+
+        <app.sonca.Dialog.ScoreLayout.MyTextScore
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <app.sonca.Dialog.ScoreLayout.ScoreKaraokeView
+            android:id="@+id/ScoreView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <app.sonca.Dialog.ScoreLayout.StateScoreView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </app.sonca.Dialog.ScoreLayout.MainScoreViewGroup>
+
+</LinearLayout>

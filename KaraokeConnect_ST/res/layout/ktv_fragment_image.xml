@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1" >
+
+        <vn.com.sonca.zktv.FragData.MyTextView
+            android:id="@+id/textPageCurrent"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.35" />
+
+        <vn.com.sonca.zktv.FragData.MyTextView
+            android:id="@+id/textPageTotal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.35" />
+
+        <vn.com.sonca.zktv.FragData.ButPage
+            android:id="@+id/butLeft"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15" />
+
+        <vn.com.sonca.zktv.FragData.ButPage
+            android:id="@+id/butRight"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15" />
+    </LinearLayout>
+
+    <vn.com.sonca.zktv.FragImage.MyGroupImage
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.9" >
+
+        <vn.com.sonca.zktv.FragImage.MyImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <vn.com.sonca.zktv.FragImage.MyImageView
+            android:id="@+id/imageView2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <vn.com.sonca.zktv.FragImage.MyImageView
+            android:id="@+id/imageView3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <vn.com.sonca.zktv.FragImage.MyImageView
+            android:id="@+id/imageView4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <vn.com.sonca.zktv.FragImage.MyImageView
+            android:id="@+id/imageView5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <vn.com.sonca.zktv.FragImage.MyImageView
+            android:id="@+id/imageView6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <vn.com.sonca.zktv.FragImage.MyImageView
+            android:id="@+id/imageView7"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <vn.com.sonca.zktv.FragImage.MyImageView
+            android:id="@+id/imageView8"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </vn.com.sonca.zktv.FragImage.MyGroupImage>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+
+</LinearLayout>

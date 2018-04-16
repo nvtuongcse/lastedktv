@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shape_backgroud_usb" >
+    
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:horizontalSpacing="20dp"
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:splitMotionEvents="false"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="20dp"
+        android:layout_weight="1" />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
+        android:textSize="34sp"
+        android:textColor="@android:color/white"
+        android:text="@string/dialog_add_song_7" />
+    
+
+</LinearLayout>

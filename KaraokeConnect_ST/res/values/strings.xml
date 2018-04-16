@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Karaoke Connect</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="type_song">BÀI HÁT</string>
+	<string name="type_singer">CA SĨ</string>
+	<string name="type_musician">TÁC GIẢ</string>
+	<string name="type_type">THỂ LOẠI</string>
+	<string name="type_langague">NGÔN NGỮ</string>
+	<string name="type_favourite">YÊU THÍCH</string>
+	<string name="type_remix">REMIX</string>
+	<string name="type_hotsong">NHẠC HOT</string>
+	 <string name="type_youtube">YOUTUBE</string>
+    
+	<string name="connect_device">Kết nối thiết bị</string>
+	<string name="refresh">Làm mới</string>
+	<string name="add_device">Thêm</string>
+	<string name="xoa">XÓA</string>
+	<string name="uutien">ƯU TIÊN</string>
+	<string name="updown">LÊN/XUỐNG</string>
+	
+	<string name="exit">THOÁT</string>
+	<string name="back">BACK</string>
+	<string name="setting">CÀI ĐẶT</string>
+	<string name="no_connect">CHƯA KẾT NỐI</string>
+	<string name="connected">ĐÃ KẾT NỐI</string>
+	<string name="connect_auto">ĐANG KẾT NỐI &#46; &#46; &#46;</string>
+	
+	<string name="main_left_1">ĐÃ CHỌN</string>
+	<string name="main_left_2">BÀI</string>
+	<string name="main_left_3a">đang phát</string>
+	<string name="main_left_3b">tạm dừng</string>
+	<string name="main_left_3c">bài tiếp theo</string>
+	<string name="main_left_4">CA SĨ</string>
+	<string name="main_left_5">CHẤM ĐIỂM</string>
+	<string name="main_left_5a">TẮT</string>
+	<string name="main_left_5b">VUI</string>
+	<string name="main_left_5c">CHUYÊN NGHIỆP</string>
+	<string name="main_left_6a">TIẾP TỤC</string>
+	<string name="main_left_6b">TẠM DỪNG</string>
+	<string name="main_left_7">QUA BÀI</string>
+	<string name="main_left_8">HÁT LẠI</string>
+	<string name="main_right_1">ÂM LƯỢNG</string>
+	
+	<string name="main_bottom_1">tắt mở tiếng ca sĩ</string>
+	<string name="main_bottom_2">chọn tông nam nữ</string>
+	<string name="main_bottom_3">chỉnh chấm điểm</string>
+	
+	<string name="search_1a">Gõ \"LD\" để tìm ca khúc \"Lệ Đá\"</string>
+	<string name="search_1b">Gõ \"CL\" để tìm ca sĩ \"Cẩm Ly\"</string>
+	<string name="search_1c">Gõ \"TCS\" để tìm nhạc sĩ \"Trịnh Công Sơn\"</string>
+	<string name="search_1d">Tìm bài YouTube</string>
+	<string name="search_3">TẤT CẢ</string>
+	<string name="search_4">bài hát</string>
+	<string name="search_4a">bài hát trong yêu thích</string>
+	<string name="search_4b">bài hát trong playlist</string>
+	<string name="search_4c">bài hát trong Dance</string>
+	<string name="khac">KHÁC</string>
+	<string name="vietnam">VIỆT NAM</string>
+	
+	<string name="listdevice">Kết Nối</string>
+	<string name="list_device_1">Kết nối thiết bị</string>
+	<string name="list_device_2">Làm mới</string>
+	<string name="list_device_3">Thêm</string>
+	<string name="list_device_4">Kết nối</string>
+	<string name="list_device_5">Đã kết nối</string>
+	
+	<string name="device_1">Kết nối thiết bị</string>
+	<string name="device_2a">Nhập địa chỉ mạng</string>
+	<string name="device_2b">Nhập mật khẩu</string>
+	<string name="device_3b">Kết nối</string>
+	<string name="device_3a">Tiếp tục</string>
+	<string name="device_4">Hủy</string>
+	<string name="device_5">Xóa</string>
+	<string name="device_6">Kết nối</string>
+	<string name="device_7">Đã kết nối</string>
+	<string name="device_8">Kết nối OK</string>
+	<string name="device_9">Chưa kết nối</string>
+	<string name="device_10">Đã lưu</string>
+	
+	<string name="db_default_language">Nhạc Việt</string>
+	
+	<string name="animview_download">Đang tải dữ liệu</string>
+	<string name="animview_wait">Xin đợi trong giây lát</string>
+	<string name="animview_connect_sk">Xin kết nối lại</string>
+	<string name="animview_connect_error">Không thể kết nối</string>
+ 	<string name="animview_connect_error_1">Sai password</string>
+	
+	<string name="connect_nhap_ip">Nhập địa chỉ IP</string>
+	<string name="connect_nhap_pass">Nhập mật khẩu kết nối</string>
+	<string name="connect_xoa">Xóa</string>
+		
+	<string name="tone_nam">NAM</string>
+	<string name="tone_nu">NỮ</string>
+	<string name="tone_man_nu">NAM/NỮ</string>
+	
+	<string name="dance_view_1">Hệ thống sẽ chuyển qua thể loại nhạc dance và</string>
+	<string name="dance_view_2">dừng tất cả bài hát karaoke mà bạn đang chọn.</string>
+	<string name="dance_view_3">Bạn có muốn chuyển không ?</string>
+	<string name="dance_view_4">Hệ thống sẽ chuyển qua chế độ karaoke và dừng</string>
+	<string name="dance_view_5">tất cả bài nhạc dance mà bạn đang chọn. </string>
+	<string name="dance_view_6">Bạn có muốn chuyển không ?</string>
+	<string name="dance_yes">CÓ</string>
+	<string name="dance_no">KHÔNG</string>
+	
+    <string name="bai_hat">BÀI HÁT</string>
+    <string name="ca_si">CA SĨ</string>
+    <string name="tac_gia">TÁC GIẢ</string>
+    <string name="bai_chon">BÀI ĐÃ CHỌN</string>
+    <string name="yeu_thich">YÊU THÍCH</string>
+    <string name="the_loai">THỂ LOẠI</string>
+    <string name="ngon_ngu">NGÔN NGỮ</string>
+    <string name="remix">REMIX</string>
+    
+    <string name="but_dachon">ĐÃ CHỌN</string>
+    <string name="but_wifi">SETUP WIFI</string>
+    <string name="but_tamdung_1">TIẾP TỤC</string>
+    <string name="but_tamdung_0">TẠM DỪNG</string>
+    <string name="but_quabai">QUA BÀI</string>
+    <string name="but_tachloi_0">KHÔNG TÁCH</string>
+    <string name="but_tachloi_1">TÁCH LỜI</string>
+    <string name="but_amluong">ÂM LƯỢNG</string>
+    <string name="but_giong_2">NAM VÀ NỮ</string>
+    <string name="but_giong_1">GIỌNG NAM</string>
+    <string name="but_giong_0">GIỌNG NỮ</string>
+    <string name="but_tocdo">TỐC ĐỘ PHÁT</string>
+    <string name="but_tone">THẤP/CAO</string>
+    <string name="but_melody">MELODY</string>
+    <string name="but_yeuthich">YÊU THÍCH</string>
+    
+	<string name="dang_phat">Đang phát</string>
+	<string name="tam_dung">Tạm dừng</string>
+	<string name="next_song">Bài tiếp theo</string>
+	
+	<string name="sreach_baihat">Tìm bài hát theo chữ cái đầu</string>
+	<string name="sreach_casi">Tìm ca sĩ theo chữ cái đầu</string>
+	<string name="sreach_tacgia">Tìm tác giả theo chữ cái đầu</string>
+	<string name="sreach_tatca">TẤT CẢ</string>
+	<string name="other">KHÁC</string>
+	
+	<string name="icon_connect_view_1">Dò tìm đầu máy</string>
+	<string name="icon_connect_view_2">Thêm đầu máy</string>
+	<string name="icon_connect_view_3">Cài đặt wifi</string>
+	
+	<string name="connect_0">Kết nối và cài đặt</string>
+	<string name="connect_1">Kết nối đầu máy</string>
+	<string name="connect_2">Dò tìm</string>
+	<string name="connect_3">đầu máy</string>
+	<string name="connect_4">Thêm</string>
+	<string name="connect_5">Cài đặt</string>
+	<string name="connect_6">wifi</string>
+	<string name="connect_7">* Bạn nên thử thêm đầu máy</string>
+	<string name="connect_one_1">Đã lưu</string>
+	<string name="connect_one_2">Kết nối OK</string>
+	<string name="connect_one_3">Chưa kết nối</string>
+	<string name="connect_one_4">KẾT NỐI</string>
+	<string name="connect_one_5">NGẮT KẾT NỐI</string>
+	<string name="connect_device_1">Nhập mật khẩu</string>
+	<string name="connect_device_2">Hủy</string>
+	<string name="connect_device_3">Kết nối</string>
+	<string name="connect_device_4">* mật khẩu kết nối (4 số) hiện trên màn hình tivi</string>
+	<string name="connect_device_5">* bấm SUBTITLE trên remote để xem mật khẩu</string>
+	<string name="connect_device_6">Nhập địa chỉ mạng</string>
+	<string name="connect_device_7">Tiếp tục</string>
+	<string name="connect_device_8">* IP &amp; mật khẩu (4 số) hiện trên đầu máy</string>
+	<string name="connect_device_9">* bấm SUBTITLE trên remote để xem IP &amp; mật khẩu</string>
+	<string name="connect_device_10">Thêm đầu máy</string>
+	<string name="connect_device_11">Nhập mật khẩu</string>
+	<string name="connect_device_12">Thông tin đầu máy</string>	
+
+	<string name="one_device_1">Kết nối OK</string>
+	<string name="one_device_2">Chưa kết nối</string>
+	<string name="one_device_3">Đã lưu</string>
+	<string name="one_device_4">KẾT NỐI</string>
+	<string name="one_device_5">XÓA LƯU</string>
+	<string name="one_device_6">CHỌN MODEL</string>
+	<string name="one_device_7">ĐẦU MÁY</string>
+	<string name="one_device_8">CÀI ĐẶT</string>
+	<string name="one_device_9">ĐẦU KARAOKE</string>
+	<string name="default_view">MẶC ĐỊNH</string>
+	
+	<!-- HMINH -->
+	<string name="popup_uppic1">Đang cập nhật dữ liệu&#46; &#46; &#46;</string>
+	<string name="popup_uppic1a">Có hình ca sĩ và tác giả mới</string>
+	<string name="popup_uppic1a_lyric">Có lời bài hát mới</string>
+	<string name="popup_uppic1b">Bạn có muốn cập nhật?</string>
+	<string name="popup_uppic1c">Dung lượng:</string>
+	<string name="popup_uppic2a">Chưa có hình mới</string>
+	<string name="popup_uppic2a_1">Chưa có dữ liệu mới</string>
+	<string name="popup_uppic2b">Chúc bạn vui vẻ</string>
+	<string name="popup_uppic2c">Chưa có clip mới</string>	
+	<string name="popup_uppic3a">Không kiểm tra version ảnh được</string>
+	<string name="popup_uppic3b">Vui lòng kiểm tra kết nối internet</string>
+	<string name="popup_uppic4a">Cập nhật hình ca sĩ và tác giả?</string>
+	<string name="popup_uppic4b">Từ đầu máy: </string>
+	<string name="popup_uppic4c">Dung lượng:</string>	
+	<string name="popup_uppic5a">Vui lòng kết nối mạng trước</string>
+	<string name="popup_uppic5b">Và dò tìm đầu máy lại</string>
+	<string name="popup_uppic6a">Hệ thống đang xử lý dữ liệu</string>
+	<string name="popup_uppic6b">Vui lòng chờ trong giây lát</string>
+	<string name="popup_uppic7a">Hình ca sĩ và tác giả chưa mới nhất</string>
+	<string name="popup_uppic7b">Kết nối với đầu máy để lấy hình</string>
+	<string name="popup_uppic7c">Hoặc cập nhật qua mạng trong mục ca sĩ</string>
+	<string name="popup_uppic8a">Cập nhật dữ liệu thất bại</string>
+	<string name="popup_uppic8b">Hệ thống sẽ dùng dữ liệu gần nhất</string>
+	<string name="popup_yes">Có</string>
+	<string name="popup_cn">Cập nhật</string>
+	<string name="popup_no">Không</string>
+	<string name="progress_1">Kiểm tra version &#8230;</string>
+	<string name="progress_2">Cập nhật dữ liệu &#8230;</string>
+	<string name="progress_3">THOÁT</string>
+	
+	<string name="groupview_1">MỜI</string>
+	<string name="groupview_2">BẠN</string>
+	<string name="groupview_3">KẾT NỐI</string>
+	<string name="groupview_4">MỜI</string>
+	<string name="groupview_5">BẠN</string>
+	<string name="groupview_6">CHỌN BÀI</string>
+	<string name="search_daumay">Đang dò tìm đầu máy</string>
+	
+	<string name="mac_popup_wifi1">Không kết nối server được</string>
+	<string name="mac_popup_wifi2">Vui lòng kiểm tra</string>
+	<string name="mac_popup_wifi3">kết nối internet</string>
+	<string name="mac_popup_failserver1">Kết nối với server</string>
+	<string name="mac_popup_failserver2">xuất hiện lỗi. Không thể</string>
+	<string name="mac_popup_failserver3">lấy thông tin kiểm tra.</string>
+	<string name="mac_popup_wrong1">Thông tin của bạn không</string>
+	<string name="mac_popup_wrong2">phù hợp. Vui lòng nhập</string>
+	<string name="mac_popup_wrong3">lại thông tin.</string>
+	<string name="mac_popup_wrongfile1">Thông tin của máy không</string>
+	<string name="mac_popup_wrongfile2">phù hợp. Không thể</string>
+	<string name="mac_popup_wrongfile3">vào ứng dụng.</string>
+	<string name="mac_popup_mac1">Không có địa chỉ MAC</string>
+	<string name="mac_popup_mac2">Vui lòng kiểm tra</string>
+	<string name="mac_popup_mac3">kết nối internet</string>
+	<string name="mac_login_user">Nhập user name</string>
+	<string name="mac_login_pass">Nhập mật khẩu</string>
+	<string name="mac_login_serial">Nhập số serial</string>
+	
+	<string name="total_1">Bài Hát</string>
+	<string name="total_2">MIDI</string>
+	<string name="total_2b">KTV</string>
+	<string name="total_2c">TẤT CẢ</string>
+	<string name="total_2d">VIỆT NAM</string>
+	<string name="total_2e">KHÁC</string>
+	<string name="total_3">Ca Sĩ</string>
+	<string name="total_4">Tác Giả</string>
+	<string name="total_5">CẬP NHẬT</string>	
+	<string name="total_6">CHỌN</string>
+	
+	<string name="popup_exit_1">Thông báo</string>
+	<string name="popup_exit_2">Bạn có muốn thoát khỏi ứng dụng?</string>	
+	
+	
+	<string name="hello_1">Cài đặt câu chào</string>
+	<string name="hello_2">Ẩn/Hiện câu chào</string>
+	<string name="hello_3">Câu chào (dòng 1):</string>
+	<string name="hello_4">Câu chào (dòng 2):</string>
+	<string name="hello_5">Hủy</string>
+	<string name="hello_6">Thay đổi</string>
+	<string name="hello_7">Thay đổi câu chào thành công</string>
+	<string name="hello_8">Thay đổi câu chào thất bại</string>
+	<string name="hello_9">Xin kết nối với thiết bị</string>
+	<string name="hello_10">Câu chào vượt quá độ dài cho phép</string>
+	<string name="hello_11">Đầu máy chưa hỗ trợ</string>
+	
+	<string name="setting_1">Cài đặt</string>
+	<string name="setting_2">Cài đặt cho đầu karaoke</string>
+	<string name="setting_3">Đổi câu chào</string>
+	<string name="setting_4">Cài đặt cho ứng dụng</string>
+	<string name="setting_5">Đổi mật khẩu thoát ứng dụng</string>
+	<string name="setting_6">Thoát ứng dụng</string>
+	
+	
+	<string name="singer_tat">TẮT</string>
+	<string name="singer_mo">MỞ</string>	
+	
+	<string name="type_songca">Song Ca</string>		
+	<string name="ktv_total_1">Có&#160;</string>
+	
+	<string name="change_type_1">Trẻ Trung</string>
+	<string name="change_type_2">Thiếu Nhi</string>
+	<string name="change_type_3">Tiền Chiến</string>
+	<string name="change_type_4">Dân Ca</string>
+	<string name="change_type_5">Tình Ca</string>
+	<string name="change_type_6">Âm Hưởng Dân Ca</string>
+	<string name="change_type_7">Nhạc Đỏ</string>
+	<string name="change_type_8">Bolero</string>
+	<string name="change_type_9">Trịnh Công Sơn</string>
+	<string name="change_type_10">Nhạc Hoa Lời Việt</string>
+	<string name="change_type_11">Nhạc Anh Lời Việt</string>
+	<string name="change_type_12">Nhạc Pháp Lời Việt</string>
+	<string name="change_type_13">Tân Cổ Giao Duyên</string>
+	
+	<string name="change_lang_0">Ngôn Ngữ Khác</string>
+	<string name="change_lang_1">Tiếng Việt</string>
+	<string name="change_lang_2">English</string>
+	<string name="change_lang_3">中國</string>
+	<string name="change_lang_4">Pilipino</string>
+	<string name="change_lang_5">한국의</string>
+	<string name="change_lang_6">日本の</string>
+	<string name="change_lang_7">Français</string>
+	
+	<string name="lyric_0">Xem lời bài hát</string>
+	<string name="lyric_1">Lời bài hát :</string>
+	<string name="lyric_2">Phóng to</string>
+	<string name="lyric_3">Thu nhỏ</string>
+	<string name="lyric_4">Nhạc Sĩ : </string>
+	<string name="lyric_5">Lời : </string>
+	<string name="lyric_6">Bài hát này chưa có lời</string>
+	<string name="lyric_7">Xem trước khi hát</string>
+	
+	<string name="popup_uptoc_1">Bạn có muốn cập nhật?</string>
+	<string name="popup_uptoc_2a">Cập nhật bài hát thất bại</string>
+	<string name="popup_uptoc_2b">Mở lại app để thử lại</string>
+	<string name="popup_uptoc_3a">Cập nhật bài hát thành công</string>
+	<string name="popup_uptoc_3b">Chúc bạn vui vẻ</string>
+	<string name="popup_uptoc_0">Có bài hát mới</string>
+	<string name="popup_uptoc_0b">Có bài hát mới</string>
+	<string name="popup_uptoc_4a">Có clip nền mới</string>
+	
+	<string name="clb_new_songs">Sàn Ca Khúc Mới</string>
+	
+	<string name="popup_connect_1">Bạn có muốn tìm kiếm và kết nối</string>
+	<string name="popup_connect_2">với đầu máy karaoke không ?</string>
+	<string name="popup_connect_3">Có</string>
+	<string name="popup_connect_4">Bỏ qua</string>
+	
+
+	<string name="conect_success">Kết Nối Thành Công</string>
+	<string name="conect_success_0">với</string>
+	
+	<string name="touch_list_device_0">Chưa bật Wifi</string>
+	<string name="touch_list_device_1">Không tìm thấy đầu máy</string>
+	<string name="name_remote">CHỌN REMOTE</string>
+	
+	
+	<string name="adminfrag_0a">Thay đổi câu chào</string>
+	<string name="adminfrag_0b">Thay đổi bài USER</string>	
+	<string name="adminfrag_0c">Giao diện</string>
+	<string name="adminfrag_1">Nhập mật khẩu quản trị</string>
+	<string name="adminfrag_2">Hủy</string>
+	<string name="adminfrag_3">Xác nhận</string>
+	
+	<string name="adminfrag_4a">Bật USER</string>
+	<string name="adminfrag_4b">Tắt USER</string>
+	<string name="adminfrag_5">Xin kiểm tra lại</string>
+	<string name="adminfrag_5a">THÀNH CÔNG</string>
+	<string name="adminfrag_6">Sai Mật Khẩu</string>
+	<string name="adminfrag_7">Quản trị</string>
+	<string name="adminfrag_8">Kết nối và cài đặt</string>
+	<string name="adminfrag_9">Khóa điều khiển</string>
+	<string name="adminfrag_10">Cài đặt đầu karaoke</string>
+	<string name="admin_false">Sai mật khẩu quản trị</string>
+	
+	<string name="top_model_0">Chọn model đầu máy</string>
+	<string name="top_model_1">CHỌN</string>
+	<string name="top_lang">Chọn ngôn ngữ</string>
+	
+	<string name="command_0">Khóa điều khiển</string>
+	<string name="command_1">OK</string>
+	<string name="command_2">Cho phép điều khiển</string>
+	<string name="command_3">Khóa điều khiển</string>
+	<string name="command_4">TRỞ LẠI</string>
+	<string name="command_5">CHẾ ĐỘ</string>
+	<string name="command_5a">PHÒNG HÁT</string>
+	<string name="command_5b">MẶC ĐỊNH</string>
+	<string name="command_5c">TÙY CHỈNH</string>
+	
+	<string name="command_6x">MỨC</string>
+	<string name="command_6a">CHẤM DỄ</string>
+	<string name="command_6b">CHẤM BÌNH THƯỜNG</string>
+	<string name="command_6c">CHẤM KHÓ</string>
+	<string name="command_7">CHỌN MỨC CHẤM ĐIỂM</string>
+	<string name="command_7a">OK</string>
+	
+	<string name="command_4a">Ưu tiên</string>
+	<string name="command_4b">Âm lượng</string>
+	<string name="command_4c">Qua bài</string>
+	<string name="command_4d">Melody</string>
+	<string name="command_4e">Tempo</string>
+	<string name="command_4f">Key</string>
+	<string name="command_4g">Tạm dừng</string>
+	<string name="command_4h">Chấm điểm</string>
+	<string name="command_4i">Tone</string>
+	<string name="command_4j">Tiếng ca sĩ</string>
+	<string name="command_4k">Hát lại</string>
+	
+	<string name="text_thong_bao_1">Không Tìm Thấy</string>
+	<string name="text_thong_bao_1a">Bài Hát</string>
+	<string name="text_thong_bao_1b">Ca Sĩ</string>
+	<string name="text_thong_bao_1c">Tác Giả</string>
+	
+	<string name="text_thong_bao_2">Chưa Có Bài Hát</string>
+	<string name="text_thong_bao_2a">Trong Yêu Thích</string>
+	<string name="text_thong_bao_2b">Trong Playlist</string>
+	<string name="text_thong_bao_3a">Bạn có muốn cài đặt nhanh các quyền điều khiển theo chế độ phòng hát không?</string>
+	<string name="text_thong_bao_3b">Bạn có muốn cài đặt nhanh các quyền điều khiển theo chế độ mặc định không?</string>
+	<string name="text_thong_bao_3c">Bạn nên update firmware mới để sử dụng chức năng này</string>
+	
+	<string name="text_thong_bao_4">Đang xử lý dữ liệu</string>
+	<string name="text_thong_bao_4a">Vui lòng chờ</string>
+	
+	<string name="busy_download_1">Không tải được dữ liệu từ đầu máy, bạn muốn thử lại không?</string>
+	<string name="busy_download_2">Bỏ Qua</string>
+	<string name="busy_download_3">Thử Lại</string>
+	
+	<string name="msg_warn_user">Bạn không có quyền khóa điều khiển</string>
+	
+	<string name="type_newvol_2">Vol Mới</string>
+	<string name="type_hotsong_2">Nhạc Hot</string>
+	<string name="type_livesong">Nhạc Sống</string>
+	<string name="type_livesong_2">NHẠC SỐNG</string>
+	<string name="type_updatesong">Bài Mới Cập Nhật</string>
+	<string name="type_updateong_2">BÀI MỚI CẬP NHẬT</string>
+	
+	<string name="pop_msg_add_1">Bài </string>
+	<string name="pop_msg_add_2">vừa được chọn rồi!</string>
+	<string name="pop_msg_add_2b">vừa được ưu tiên rồi!</string>
+	<string name="pop_msg_add_3">Vui lòng chọn thêm bài khác</string>
+	
+	<string name="text_change_sleep">Tự động tắt màn hình</string>
+	<string name="text_change_sleep_0">&#160;giây</string>
+	<string name="text_change_sleep_1">&#160;phút</string>
+	<string name="text_change_sleep_2">Không tự động tắt</string>
+	<string name="text_change_sleep_3">Tự động tắt sau</string>
+	<string name="text_change_sleep_4">* màn hình sẽ không tự động tắt</string>	
+	<string name="text_change_sleep_5">* màn hình sẽ tự động tắt sau</string>
+	<string name="text_change_sleep_6">không hoạt động</string>
+	<string name="text_change_sleep_7">* cầm máy hoặc gõ nhẹ màn hình để mở lại</string>
+	<string name="text_change_sleep_8">&#160;giây không hoạt động</string>
+	<string name="text_change_sleep_9">&#160;phút không hoạt động</string>		
+	
+	<string name="text_chane_perfect_0">ĐỔI</string>
+	<string name="text_chane_perfect_1">HÒA ÂM</string>
+	
+	<string name="hiw_title">Cài đặt đầu karaoke</string>
+	<string name="hiw_title_left">Thông tin firmware</string>
+	<string name="hiw_title_center">Thông tin đầu máy</string>
+	<string name="hiw_title_right">Cài đặt Wi-Fi mở rộng</string>
+	
+	<string name="hiw_text_left_1">Phiên bản firmware đầu máy</string>
+	<string name="hiw_text_left_2">Phiên bản firmware Wi-Fi</string>
+	<string name="hiw_text_left_3">Phiên bản đang dùng</string>
+	<string name="hiw_but_left_1">Download</string>
+	<string name="hiw_but_left_2">Từ server</string>
+	<string name="hiw_but_left_3">Cập nhật</string>
+	<string name="hiw_but_left_4">firmware Wi-Fi</string>
+	
+	<string name="hiw_text_center_1">Tên đầu máy &#40;Tên Wi-Fi&#41;</string>
+	<string name="hiw_text_center_2">Mật khẩu Wifi &#40;tối thiểu 8 chữ hoặc số&#41;</string>
+	<string name="hiw_text_center_3">Mật khẩu kết nối &#40;4 số&#41;</string>
+	<string name="hiw_text_center_4">Mật khẩu quản trị &#40;4 số&#41;</string>
+	
+	<string name="hiw_text_right_1">Cho phép mở rộng mạng Wi-Fi</string>
+	<string name="hiw_text_right_2">&#40;kết nối Wi-Fi đầu karaoke với mạng Wi-Fi</string>
+	<string name="hiw_text_right_3">có sẵn&#41;</string>
+	<string name="hiw_text_right_4">Tên mạng Wi-Fi mở rộng</string>
+	<string name="hiw_text_right_5">Mật khẩu mạng Wi-Fi mở rộng</string>
+	<string name="hiw_text_right_6">Cài Đặt Wi-Fi mở rộng</string>
+	<string name="hiw_text_right_7">Tên mạng</string>
+	<string name="hiw_text_right_8">Mật khẩu mạng</string>
+	
+	<string name="hiw_button_left">HỦY</string>
+	<string name="hiw_button_right">THAY ĐỔI</string>
+	
+	<string name="toast_hiw_info_1">Mật khẩu có &#160;</string>
+	<string name="toast_hiw_info_2">tối thiểu &#160;</string>
+	<string name="toast_hiw_info_3">&#160; chữ số</string> 
+	
+	<string name="msg_1">Không thể thêm bài</string>
+	<string name="msg_2">Không thể ưu tiên bài</string>
+	<string name="msg_3">Danh sách bài hát đã đầy</string>
+	
+	<string name="msg_6a">Đang update firmware</string>
+	<string name="msg_6b">Vui lòng chờ trong giây lát</string>
+	<string name="msg_7">Update firmware thành công!</string>
+	<string name="msg_8">Thay đổi cài đặt thành công!</string>
+	
+	<string name="msg_9">Nhập mật khẩu mạng Wi-Fi mở rộng</string>
+	<string name="msg_10">Đầu máy chưa có bài này</string>
+	<string name="msg_10_a">Chưa hỗ trợ khi đang phát YouTube</string>
+	<string name="msg_14">Mật khẩu phải là 4 số</string>	
+	
+	<string name="msg_14a">Không được để trống</string>
+	
+	<string name="msg_15">Đầu máy đang xử lý</string>
+	<string name="msg_15a">Vui lòng chờ</string>
+	
+	<string name="msg_16">Tên và mật khẩu không được trống</string>
+	<string name="msg_17">Nhập tên và mật khẩu Wi-Fi</string>
+	<string name="msg_18">để xác nhận mạng mở rộng</string>
+	
+	<string name="msg_19">Thay đổi cài đặt thành công</string>
+	
+	<string name="update_firmware">Bạn có muốn update dữ liệu mới không ?</string>
+	<string name="update_firmware_1">Bạn đang có firmware mới nhất</string>
+	<string name="update_firmware_2">Không phù hợp điều kiện cập nhật</string>
+	<string name="update_firmware_3">Board Wi-Fi đang có firmware mới nhất</string>	
+	<string name="update_firmware_4">Đang thay đổi cài đặt</string>
+	
+	<string name="popup_upData_1">Dữ liệu trên app cũ hơn đầu máy</string>
+	
+	<string name="settingapp_1">Thời gian tự động tắt màn hình</string>
+	<string name="settingapp_2">Chọn giao diện</string>
+	<string name="settingapp_3">Thông tin ứng dụng</string>
+	<string name="setting_screen_1">* màn hình đang ở giao diện ACNOS</string>
+	<string name="setting_screen_2">* màn hình đang ở giao diện KTV-SD</string>
+	
+	<string name="setting_test_1">* màn hình sẽ tự động tắt sau 15 giây không hoạt động</string>
+	<string name="setting_but_screen_1">Giao diện ACNOS (mặc định)</string>
+	<string name="setting_but_screen_2">Giao diện KTV-SD</string>
+	
+	<string name="painting_lyric_1">VIDEO KARAOKE</string>
+	
+	<string name="frag_songtype">Thể Loại</string>
+	
+	<string name="top_select_list">Chọn list nhạc</string>
+	<string name="select_list_title">Chọn list nhạc</string>
+	<string name="select_list_1">SONCA</string>
+	<string name="select_list_2">USER</string>
+	<string name="select_list_3">SONCA + USER</string>	
+	
+	<string name="info_1">Thông tin ứng dụng</string>
+	<string name="info_2">Phiên bản ứng dụng:</string>
+	<string name="info_3">Đánh giá ứng dụng</string>
+	<string name="info_4">Thông tin liên hệ</string>
+	<string name="info_5">CÔNG TY CỔ PHẦN TRUYỀN THÔNG SƠN CA</string>
+	<string name="info_6">15 Mai Thị Lựu, Phường Đakao, Quận 1, Tp HCM</string>
+	<string name="info_7">Phiên bản dữ liệu:</string>
+	<string name="info_msg_0">Không thể truy cập internet</string>
+	<string name="info_msg_1">Không có ứng dụng có thể gọi điện</string>
+	<string name="info_msg_2">Chọn ứng dụng gửi mail:</string>
+	<string name="info_msg_3">Không có ứng dụng có thể email</string>
+	<string name="info_msg_4">Không có ứng dụng có thể mở web</string>
+	<string name="info_upd_1">(cập nhật)</string>
+	<string name="info_upd_2">Khôi phục dữ liệu ban đầu</string>
+	<string name="info_upd_3">(khôi phục)</string>
+	<string name="info_upd_4">Khôi phục dữ liệu thành công</string>
+	
+	<string name="status_loading_1">Đang tìm tất cả bài hát. Xin chờ</string>
+	<string name="status_loading_2">Xin chờ</string>
+	
+	<string name="check_1">Tên đầu máy vượt quá độ dài cho phép</string>
+	<string name="check_2">Không nhập kí tự đặc biệt</string>
+	<string name="check_3">Tên Wifi mở rộng vượt quá độ dài cho phép</string>
+	<string name="check_4">Mật khẩu Wifi mở rộng vượt quá độ dài cho phép</string>	
+	<string name="check_5">Mật khẩu Wifi vượt quá độ dài cho phép</string>
+	
+	<string name="sw_title">Cài đặt màn hình và thông tin ứng dụng</string>
+	
+	<string name="settingapp_4">Hỏi trước khi chọn bài</string>
+	<string name="settingapp_5">Quản lý clip</string>
+	<string name="setting_pop_1">Bật/Tắt thông báo hỏi</string>
+	<string name="setting_pop_2">* hiện thông báo hỏi trước khi chọn bài hát</string>
+	<string name="setting_pop_3">* không hiện thông báo hỏi trước khi chọn bài hát</string>
+	
+	<string name="confirm_1">Bạn có muốn thêm bài hát</string>
+	<string name="confirm_2">Bạn có muốn ưu tiên bài hát</string>
+	<string name="confirm_3">Bạn có muốn hát lại bài này</string>
+	<string name="confirm_4">Bạn muốn qua bài kế tiếp</string>
+	<string name="confirm_a">CÓ</string>
+	<string name="confirm_b">KHÔNG</string>
+	
+	<string name="title_activity_activity_karaoke">ActivityKaraoke</string>
+	<string name="activity_karaoke_sample_string">Nở ngàn hoa chiến công</string>
+	<string name="activity_karaoke_noLyric">Bài hát chưa hỗ trợ</string>	
+	<string name="activity_karaoke_moiban">Mời Chọn Bài Hát</string>
+	<string name="activity_karaoke_ReviewKaraokeError">Vui lòng kiểm tra kết nối với đầu máy</string>	
+	<string name="activity_karaoke_ReviewKaraokeNotice">Vui lòng kết nối với đầu máy karaoke</string>	
+	
+	<string name="karaoke_left_3a">Đang phát </string>
+	<string name="karaoke_left_3b">Tạm dừng </string>
+	<string name="karaoke_left_3c">Bài tiếp theo </string>
+	<string name="karaoke_Greeting_Line1">SONCAMEDIA</string>
+	<string name="karaoke_Greeting_Line2">KTV Karaoke Wifi</string>
+	
+	<string name="dialog_volumn_block_1">CÀI ĐẶT VOLUME MẶC ĐỊNH</string>
+	<string name="dialog_volumn_block_master_0">Volume MASTER</string>
+	<string name="dialog_volumn_block_master_1">Cài mức volume mặc định</string>
+	<string name="dialog_volumn_block_midi_0">Volume nhạc MIDI</string>
+	<string name="dialog_volumn_block_midi_1">Tinh chỉnh cho nhạc MIDI</string>
+	<string name="dialog_volumn_block_ktv_0">Volume nhạc KTV</string>
+	<string name="dialog_volumn_block_ktv_1">Tinh chỉnh cho nhạc KTV</string>
+	<string name="dialog_volumn_block_dance_0">Volume DANCE</string>
+	<string name="dialog_volumn_block_dance_1">Cài mức volume mặc định</string>
+	<string name="dialog_volumn_block_dance_2">cho chế độ DANCE</string>
+	<string name="dialog_volumn_block_piano_0">Volume PIANO</string>
+	<string name="dialog_volumn_block_piano_1">Cài mức volume mặc định</string>
+	<string name="dialog_volumn_block_piano_2">cho chế độ PIANO</string>
+	
+	<string name="dialog_melody_block_1">CÀI ĐẶT MELODY MẶC ĐỊNH</string>
+	<string name="dialog_melody_block_2">MELODY</string>
+	<string name="dialog_melody_block_3">Cài mức MELODY mặc định</string>
+	<string name="dialog_melody_block_4">(cho nhạc MIDI)</string>
+	
+	<string name="dialog_score_text_0">Chấm Điểm</string>
+     <string name="dialog_score_0">Cố Gắng Thêm</string>
+    <string name="dialog_score_1">Hát Hay QUá</string>
+    <string name="dialog_score_2">Wow, Hay Tuyệt</string>
+    <string name="dialog_score_3">Rất Chuyên Nghiệp</string>
+	
+	<string name="msg_kara_1">Chức năng WIFI VIDEO chưa hỗ trợ chỉnh tempo</string>
+	<string name="msg_kara_1a">Chức năng WIFI VIDEO chưa hỗ trợ phát YouTube</string>
+	<string name="msg_kara_2">Nhạc:</string>
+	<string name="msg_kara_3">Chưa có lời bài hát. Không thể chạy WIFI VIDEO</string>	
+	<string name="msg_kara_4">DOWNLOAD CLIP</string>
+	<string name="msg_kara_5">Vui lòng kiểm tra kết nối mạng</string>
+	<string name="msg_kara_6">Tải clip để có hình ảnh sống động khi hát karaoke.</string>
+	<string name="msg_kara_7">XÓA CLIP</string>
+	
+	<string name="msg_khoiphuc_1">Hệ thống đang khôi phục dữ liệu</string>
+    <string name="msg_khoiphuc_2">Khôi phục dữ liệu thành công</string>
+    
+    
+	<string name="tanghoa">Tương Tác</string>
+	<string name="thongtinnguoitang">Thông tin người tặng</string>
+	<string name="nhapten">Nhập tên:</string>
+	<string name="chonavatar">Chọn Avatar:</string>
+	<string name="thongtinbaihat">Thông tin bài hát</string>
+	<string name="baidanghat">Bài đang hát:</string>
+	<string name="sohoamuontang">Chọn số hoa muốn tặng:</string>
+	<string name="tang">TẶNG</string>
+	
+	<string name="doxucxac1">Đổ xúc xắc</string>
+	<string name="doxucxac2">ĐỔ</string>
+	
+	<string name="msg_tanghoa_2a">Chưa thể tặng hoa được</string>
+	<string name="msg_tanghoa_2b">Vui lòng chọn bài trước</string>
+	<string name="msg_tanghoa_3a">Chưa thể tặng hoa được</string>
+	<string name="msg_tanghoa_3b">khi đang phát bài YouTube</string>	
+	<string name="msg_tanghoa_val_1c">Không nhập kí tự đặc biệt</string>
+	<string name="msg_tanghoa_val_1d">Vượt quá độ dài cho phép</string>
+    
+    <string name="popup_upall_0">Thông báo</string>
+    <string name="popup_upall_1">Tìm thấy thông tin bài hát mới</string>
+	<string name="popup_upall_2">Bạn có muốn cập nhật dữ liệu ?</string>
+	<string name="popup_upall_3">Bạn có muốn tải clip nền để hát</string>
+	<string name="popup_upall_4">karaoke WIFI VIDEO sống động hơn ?</string>
+    <string name="popup_upall_c1">Bỏ qua</string>
+	<string name="popup_upall_c2">Tải về</string>
+	<string name="popup_upall_c3">Không</string>
+	<string name="popup_msg_a">Clip nền để hát karaoke</string>
+	<string name="popup_msg_b">WIFI VIDEO đã mới nhất</string>
+	
+	<string name="msg_12a">Dữ liệu trên thiết bị</string>
+	<string name="msg_12b">đã được cập nhật</string>
+    
+	<string name="clip_xoa_1">Clip nền để hát karaoke WIFI VIDEO</string>
+	<string name="clip_xoa_2">Bạn có muốn xóa không ?</string>	
+	
+	<string name="youtube_xemthu_1a">Bài hát này có thể xem qua YouTube</string>
+	<string name="youtube_xemthu_1b">Bạn có muốn xem thử không ?</string>
+		
+   	<string name="youtube_down_1">Bài hát của YouTube</string>
+	<string name="youtube_down_2">Bạn có muốn tải xuống đầu máy ?</string>
+   	
+   	<string name="youtube_down_3">Chức năng chưa hỗ trợ khi đang phát bài YouTube</string>
+   	<string name="youtube_down_4">Chức năng chưa hỗ trợ</string>
+   	
+   	<string name="youtube_down_5">Bài hát đang tải xuống</string>
+	<string name="youtube_down_6">Bạn có muốn dừng tải?</string>
+	
+	<string name="youtube_down_7">Đã đưa vào hàng chờ. Đầu máy sẽ tải xuống sau</string>
+	
+	<string name="youtube_down_9">Đầu máy không còn chỗ trống. Không thể tải bài hát</string>
+	<string name="youtube_down_10">Vượt quá giới hạn tải 100 bài. Không thể tải bài hát</string>
+	<string name="youtube_down_11">Bài hát đã tải xuống. Kết nối lại để đồng bộ</string>
+	
+	<string name="khoiphuc_1">Hệ thống sẽ về dữ liệu ban đầu.</string>
+	<string name="khoiphuc_2">Bạn có muốn khôi phục ?</string>	
+	
+	
+	<string name="ktv_title_search">Chọn tên:</string>
+	<string name="ktv_page">Trang:</string>
+	<string name="ktv_total_page">Tổng cộng:</string>
+	
+	<string name="ktv_switch_1">THỂ LOẠI</string>
+	<string name="ktv_switch_2">CHỌN TÊN</string>
+	<string name="ktv_switch_3">CHỌN SỐ</string>
+	<string name="ktv_switch_4">CA SĨ</string>
+	<string name="ktv_switch_5">NGÔN NGỮ</string>
+	<string name="ktv_switch_6">NHẠC HOT</string>
+	<string name="ktv_switch_7">ĐÃ CHỌN</string>
+	<string name="ktv_switch_8">GIAO DIỆN</string>
+	<string name="ktv_switch_9">HỆ THỐNG</string>
+	
+	<string name="ktv_switch_2b">DANH SÁCH</string>
+	
+	<string name="ktv_main_1">Cao cấp</string>
+	<string name="ktv_main_2">Wifi video</string>
+	<string name="ktv_main_3">Qua bài</string>
+	<string name="ktv_main_4">Tách lời</string>
+	<string name="ktv_main_5">Hát lại</string>
+	<string name="ktv_main_6">Đã chọn</string>
+	<string name="ktv_main_7">Giảm âm</string>
+	<string name="ktv_main_8">Tăng âm</string>
+	<string name="ktv_main_9">Quay lại</string>
+	
+	<string name="ktv_main_4b">Không tách</string>
+	<string name="ktv_main_4b2">Không tách lời</string>
+	
+	<string name="ktv_caocap_1">MELODY</string>
+	<string name="ktv_caocap_2">TEMPO</string>
+	<string name="ktv_caocap_3">Tone</string>
+	<string name="ktv_caocap_4">Hòa Âm</string>
+	<string name="ktv_caocap_5">Mặc định</string>
+	
+	<string name="ktv_caocap_6">Chỉnh MIDI</string>
+	<string name="ktv_caocap_7">Ngắt tiếng</string>
+	<string name="ktv_caocap_8">Tạm dừng</string>
+	<string name="ktv_caocap_9">Giảm tone</string>
+	<string name="ktv_caocap_10">Tăng tone</string>
+	<string name="ktv_caocap_11">Dance</string>
+	<string name="ktv_caocap_12">Chấm điểm</string>
+	
+	<string name="ktv_caocap_12a">Tắt</string>
+	<string name="ktv_caocap_12b">Vui</string>
+	<string name="ktv_caocap_12c">Chuyên nghiệp</string>
+		
+	<string name="ktv_caocap_1a">Giảm melody</string>
+	<string name="ktv_caocap_1b">Tăng melody</string>
+	<string name="ktv_caocap_2a">Giảm tempo</string>
+	<string name="ktv_caocap_2b">Tăng tempo</string>
+	<string name="ktv_caocap_7b">Mở tiếng</string>
+	<string name="ktv_caocap_8b">Tiếp tục</string>
+	<string name="ktv_caocap_8c">Play/Pause</string>
+	<string name="ktv_caocap_11b">Karaoke</string>
+	<string name="ktv_caocap_11c">DANCE</string>
+	
+	<string name="ktv_search_1">Tổng cộng:</string>
+	
+	<string name="ktv_msg_1">Chức năng chưa hỗ trợ</string>
+	
+	<string name="dialog_add_song_1">Tìm và xóa bài hát</string>
+	<string name="dialog_add_song_2">Thêm bài hát</string>
+	<string name="dialog_add_song_3">QUẢN LÝ BÀI HÁT</string>
+	<string name="dialog_add_song_4">HỦY</string>
+	<string name="dialog_add_song_5">THÊM</string>
+	<string name="dialog_add_song_6">XÓA</string>
+	<string name="dialog_add_song_7">*USB được nhận diện từ đầu máy</string>
+	<string name="dialog_add_song_8">CHỌN HẾT</string>
+	
+	<string name="smartk_add_1">Chưa chọn bài nào để xử lý</string>
+	
+	<string name="toc_mod_2">Đầu máy chưa nhận được USB</string>
+	<string name="toc_mod_3a">Bài đã chọn không có trong USB</string>
+	<string name="toc_mod_3b">Bài đã chọn không có trên đầu máy</string>
+	<string name="toc_mod_4">Đầu máy đang bận xử lý</string>
+	<string name="toc_mod_5">Các bài đã chọn vượt quá dung lượng trong ổ cứng</string>
+	<string name="toc_mod_add">Xác nhận thêm bài. Kiểm tra trên đầu máy hoặc kết nối lại để đồng bộ.</string>
+	<string name="toc_mod_6">Số bài đã chọn vượt quá giới hạn tải 100 bài</string>	
+	<string name="toc_mod_remove">Xác nhận xóa bài. Kiểm tra trên đầu máy hoặc kết nối lại để đồng bộ.</string>
+	<string name="toc_mod_warn">Chức năng quản lý bài hát chưa hỗ trợ khi đang phát bài YouTube</string>
+	
+	<string name="usb_check_1">Không có USB nào chứa dữ liệu thêm bài</string>
+	<string name="usb_check_2">Không lấy được thông tin thêm bài</string>
+	<string name="usb_check_3a">Đang xử lý trên server, vui lòng chờ</string>
+	<string name="usb_check_3b">Quá trình xử lý có thể lâu</string>
+		
+	<string name="switchscreen_1a">Chuyển qua giao diện ACNOS</string>
+	<string name="switchscreen_1b">Chuyển qua giao diện KTV-SD</string>
+	<string name="switchscreen_2">Bạn xác nhận chuyển giao diện ?</string>	
+	
+	<string name="ktv_theloai_1">SONG CA</string>
+	<string name="ktv_theloai_2">NHẠC ĐỎ</string>
+	<string name="ktv_theloai_3">THIẾU NHI</string>
+	<string name="ktv_theloai_4">SINH NHẬT</string>
+	<string name="ktv_theloai_5">VOL MỚI</string>
+	<string name="ktv_theloai_6">REMIX</string>
+	<string name="ktv_theloai_7">LIÊN KHÚC</string>
+	<string name="ktv_theloai_8">DÂN CA</string>
+	<string name="ktv_theloai_9">NHẠC HOT</string>
+	<string name="ktv_theloai_10">NHẠC HOA</string>
+	
+	<string name="popup_yt_1">Tải về đầu karaoke</string>
+	<string name="popup_yt_2">Hủy tải</string>
+	<string name="popup_yt_3">Xem trước</string>
+	
+	<string name="myyoutube_help_1">Không Tìm Thấy</string>
+	<string name="myyoutube_help_2">Thông Tin YouTube</string>
+	<string name="myyoutube_help_3">Mời bạn kết nối mạng</string>
+	<string name="myyoutube_help_4">để sử dụng chức năng</string>
+	<string name="myyoutube_help_5">Mời bạn tìm bài</string>
+	<string name="myyoutube_help_6">hát trên YouTube</string>
+	<string name="myyoutube_search_1">Karaoke Beat</string>
+	
+	<string name="real_yt_1">lượt xem</string>
+	<string name="real_yt_2">Ưu tiên</string>
+	<string name="real_yt_3">Xem trước</string>
+	<string name="real_yt_4">đã chọn</string>	
+	
+	<string name="tuongtac_1">TƯƠNG TÁC</string>
+	
+	<string name="onoff_user_1">TẢI NHẠC TỪ INTERNET</string>
+	<string name="onoff_user_2">KHÔI PHỤC NHẠC GỐC</string>
+	
+	<string name="onoff_user_3a">HDD/USB trong máy đang có nhạc</string>
+	<string name="onoff_user_3b">từ mạng xã hội trên internet.</string>
+	<string name="onoff_user_3c">Bạn có muốn khôi phục nhạc gốc?</string>
+	  
+	<string name="onoff_user_4a">Bạn có muốn tải thêm nhạc mới từ các mạng</string>
+	<string name="onoff_user_4b">xã hội trên internet không? Chúng tôi không chịu</string>
+	<string name="onoff_user_4c">trách nhiệm về các nội dung trên mạng internet</string>
+	
+	<string name="down_full_1">Không thể tải dữ liệu</string>
+	<string name="down_full_2">Thiết bị không còn chỗ trống</string>
+	
+	<string name="settingall_1">Cài đặt ứng dụng</string>
+	<string name="settingall_2">Cho phép chạy WIFI VIDEO</string>
+	<string name="settingall_2a">Bật/Tắt chức năng WIFI VIDEO</string>
+	<string name="settingall_2b">* bật chức năng WIFI VIDEO</string>
+	<string name="settingall_2c">* tắt chức năng WIFI VIDEO</string>
+	
+	<string name="settingall_3">Thời gian tự động chuyển WIFI VIDEO</string>	
+	<string name="settingall_3z">Không tự động chuyển</string>
+	<string name="settingall_3a">Tự động chuyển sau</string>
+	<string name="settingall_3b">* không tự động chuyển WIFI VIDEO</string>
+	<string name="settingall_3c">* tự động chuyển WIFI VIDEO sau</string>
+	
+	<string name="update_net_1">Từ USB</string>
+	<string name="update_net_2">Từ Mạng</string>
+	
+	<string name="msg_a_1">Đầu máy chưa hỗ trợ</string>
+	<string name="msg_a_2">chức năng xem trước</string>
+	
+	<string name="newSongType_1">Nhạc Hoa</string>
+	<string name="newSongType_3">YouTube</string>
+	
+	<string name="settingall_4">Cho phép dùng tab YOUTUBE</string>
+	<string name="settingall_4a">Bật/Tắt dùng tab YOUTUBE</string>
+	<string name="settingall_4b">* được dùng tab YOUTUBE</string>
+	<string name="settingall_4c">* không được dùng tab YOUTUBE</string>
+	
+	<string name="settingall_5">Cho phép tải bài ONLINE</string>
+	<string name="settingall_5a">Bật/Tắt tải bài ONLINE</string>
+	<string name="settingall_5b">* được tải bài ONLINE</string>
+	<string name="settingall_5c">* không được tải bài ONLINE</string>
+	
+	<string name="settingall_6">Bàn phím hệ thống</string>
+	<string name="settingall_6a">Bật/Tắt bàn phím hệ thống</string>
+	<string name="settingall_6b">* dùng bàn phím hệ thống</string>
+	<string name="settingall_6c">* dùng bàn phím đơn giản</string>
+	
+	<string name="settingall_7">Hiển thị bài ONLINE</string>
+	<string name="settingall_7a">Bật/Tắt hiển thị bài ONLINE</string>
+	<string name="settingall_7b">* đang hiển thị bài ONLINE</string>
+	<string name="settingall_7c">* không hiển thị bài ONLINE</string>
+	
+	<string name="settingall_8">Chạy bài hát quảng cáo</string>
+	<string name="settingall_8a">Bật/Tắt bài hát quảng cáo</string>
+	<string name="settingall_8b">* đang bật bài quảng cáo</string>
+	<string name="settingall_8c">* đang tắt bài quảng cáo</string>	
+	
+	<string name="newSongType_2">Nhạc Online</string>
+	
+	<string name="lucyroll_1">Đầu máy chưa hỗ trợ chức năng này</string>
+	
+	<string name="tang_3">Mini game - Vòng xoay may mắn</string>
+	<string name="tang_4">XOAY</string>
+	
+	<string name="luckydata_1">Mất lượt</string>
+	<string name="luckydata_2">Hát một bài hát</string>
+	<string name="luckydata_3">Tất cả cùng uống</string>
+	<string name="luckydata_4">Uống một ly</string>
+	<string name="luckydata_5">Tất cả nữ uống</string>
+	<string name="luckydata_6">Mất 20.000</string>
+	<string name="luckydata_7">Thêm lượt</string>
+	<string name="luckydata_8">Mất 50.000</string>
+	<string name="luckydata_9">Cả phòng 50%</string>
+	<string name="luckydata_10">Nhảy 1 vũ điệu sexy</string>
+	<string name="luckydata_11">Cả phòng 100%</string>
+	<string name="luckydata_12">Tất cả nam uống</string>
+	
+	<string name="khoa_youtube_1">Khóa search YouTube</string>
+	<string name="khoa_youtube_2">Không được dùng tab YOUTUBE</string>
+	<string name="khoa_youtube_3">Chỉ cho phép search KARAOKE</string>
+	<string name="khoa_youtube_4">Được dùng tab YOUTUBE</string>		
+	
+	<string name="dialog_90xx_online_1a">QUẢN LÝ TẢI BÀI ONLINE</string>
+	<string name="dialog_90xx_online_1b">QUẢN LÝ ẨN BÀI HÁT</string>
+	<string name="dialog_90xx_online_2">HỦY TẢI</string>
+	<string name="dialog_90xx_online_3">TẢI VỀ</string>
+	<string name="dialog_90xx_online_4">Tự động tải bài hát khi kết nối internet</string>
+	<string name="dialog_90xx_online_5">Đầu máy chưa kết nối internet</string>
+	<string name="dialog_90xx_online_5b">Đầu máy cần kết nối internet để tải bài online</string>
+	<string name="dialog_90xx_online_6">BÀI ĐÃ CHỌN</string>
+	<string name="dialog_90xx_online_7">TẤT CẢ</string>	
+	<string name="dialog_90xx_online_8">Tìm và chọn tải bài online</string>
+	<string name="dialog_90xx_online_9">bài</string>	
+	<string name="dialog_90xx_online_10">Bạn đang bật chế độ tự động tải bài online</string>
+	<string name="dialog_90xx_online_11">Bạn chưa chọn bài nào</string>
+	<string name="dialog_90xx_online_12">Không có bài để tự động tải</string>
+	<string name="dialog_90xx_online_13">Đã xác nhận tự động tải bài online</string>
+	<string name="dialog_90xx_online_14">Đã xác nhận không tự động tải bài online</string>
+	
+	<string name="dialog_90xx_online_15">Đã xác nhận tải bài</string>
+	<string name="dialog_90xx_online_16">Đã xác nhận hủy tải bài</string>
+	
+	<string name="dialog_90xx_online_17a">Bạn có muốn chuyển sang chế độ</string>
+	<string name="dialog_90xx_online_17b">tự động tải bài online?</string>
+	<string name="dialog_90xx_online_18a">Bạn có muốn tắt chế độ</string>
+	<string name="dialog_90xx_online_18b">tự động tải bài online?</string>
+	
+	<string name="dialog_90xx_online_19">Đầu máy đang xử lý. Vui lòng thử lại sau</string>
+	
+	<string name="dialog_90xx_err_1">Không thể xác nhận. Đang ở chế độ auto</string>
+	<string name="dialog_90xx_err_2">Không thể xác nhận. Bài đã tải rồi</string>
+	<string name="dialog_90xx_err_3">Không thể xác nhận. Bài đã được yêu cầu rồi</string>
+	<string name="dialog_90xx_err_4">Không thể xác nhận. Link tải có lỗi</string>
+	<string name="dialog_90xx_err_5">Không thể xác nhận. Vượt quá giới hạn yêu cầu tải</string>
+	
+	<string name="dialog_90xx_hid_1">Tìm chọn bài hát muốn ẩn</string>
+	<string name="dialog_90xx_hid_2">HỦY ẨN</string>
+	<string name="dialog_90xx_hid_3">ẨN BÀI</string>
+	<string name="dialog_90xx_hid_5">HIỆN TẤT CẢ</string>	
+	<string name="dialog_90xx_hid_6">BÀI ĐÃ ẨN</string>
+	<string name="dialog_90xx_hid_7">TẤT CẢ</string>	
+	
+	<string name="dialog_90xx_hid_8a">Bạn có muốn hủy ẩn bài?</string>
+	<string name="dialog_90xx_hid_9a">Bạn có muốn hủy ẩn tất cả</string>
+	<string name="dialog_90xx_hid_9b">để hiện toàn bộ bài hát?</string>
+	<string name="dialog_90xx_hid_10">Đầu máy đang xử lý. Vui lòng thử lại sau</string>
+	
+	<string name="dialog_90xx_ql_1">QUẢN LÝ</string>
+	<string name="dialog_90xx_ql_2">BÀI ONLINE</string>
+	<string name="dialog_90xx_ql_3">BÀI ẨN</string>
+	
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.7"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <vn.com.sonca.Dialog.BlockMelody.BlockBackgroudMelodyGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_boder_popup" />
+
+            <vn.com.sonca.Dialog.BlockMelody.BlockMelodyGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_block_volumn_view" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/touch_shape_line_hor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/dialog_melody_block_1"
+                    android:textColor="@color/dialog_block_volumn_1" />
+
+                <vn.com.sonca.Dialog.BlockVolumn.VolumnTextD
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <vn.com.sonca.Dialog.BlockMelody.MelodyDragView
+                    android:id="@+id/melodyDragView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <vn.com.sonca.Touch.BlockCommand.ButtonPercent
+                    android:id="@+id/buttonCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </vn.com.sonca.Dialog.BlockMelody.BlockMelodyGroup>
+        </vn.com.sonca.Dialog.BlockMelody.BlockBackgroudMelodyGroup>
+    </LinearLayout>
+
+</RelativeLayout>

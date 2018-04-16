@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1" >
+
+        <vn.com.sonca.zktv.FragData.MyTextView
+            android:id="@+id/textPageCurrent"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.35" />
+
+        <vn.com.sonca.zktv.FragData.MyTextView
+            android:id="@+id/textPageTotal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.35" />
+
+        <vn.com.sonca.zktv.FragData.ButPage
+            android:id="@+id/butLeft"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15" />
+
+        <vn.com.sonca.zktv.FragData.ButPage
+            android:id="@+id/butRight"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:orientation="vertical"
+        android:weightSum="6" >
+
+        <vn.com.sonca.zktv.FragPlaylist.MyGlowPlayList
+            android:id="@+id/song1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <vn.com.sonca.zktv.FragPlaylist.MyPlaylistView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButFirst
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButSinger
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragPlaylist.ButDelete
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButPreview
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButDownload
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButCancelDownload
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            
+        </vn.com.sonca.zktv.FragPlaylist.MyGlowPlayList>
+
+        <vn.com.sonca.zktv.FragPlaylist.MyGlowPlayList
+            android:id="@+id/song2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <vn.com.sonca.zktv.FragPlaylist.MyPlaylistView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButFirst
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButSinger
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragPlaylist.ButDelete
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButPreview
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButDownload
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButCancelDownload
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </vn.com.sonca.zktv.FragPlaylist.MyGlowPlayList>
+
+        <vn.com.sonca.zktv.FragPlaylist.MyGlowPlayList
+            android:id="@+id/song3"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <vn.com.sonca.zktv.FragPlaylist.MyPlaylistView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButFirst
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButSinger
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragPlaylist.ButDelete
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButPreview
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButDownload
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButCancelDownload
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </vn.com.sonca.zktv.FragPlaylist.MyGlowPlayList>
+
+        <vn.com.sonca.zktv.FragPlaylist.MyGlowPlayList
+            android:id="@+id/song4"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <vn.com.sonca.zktv.FragPlaylist.MyPlaylistView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButFirst
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButSinger
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragPlaylist.ButDelete
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButPreview
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButDownload
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButCancelDownload
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </vn.com.sonca.zktv.FragPlaylist.MyGlowPlayList>
+
+        <vn.com.sonca.zktv.FragPlaylist.MyGlowPlayList
+            android:id="@+id/song5"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <vn.com.sonca.zktv.FragPlaylist.MyPlaylistView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButFirst
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButSinger
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragPlaylist.ButDelete
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButPreview
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButDownload
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButCancelDownload
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </vn.com.sonca.zktv.FragPlaylist.MyGlowPlayList>
+
+        <vn.com.sonca.zktv.FragPlaylist.MyGlowPlayList
+            android:id="@+id/song6"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <vn.com.sonca.zktv.FragPlaylist.MyPlaylistView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButFirst
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButSinger
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragPlaylist.ButDelete
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButPreview
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButDownload
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <vn.com.sonca.zktv.FragData.ButCancelDownload
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </vn.com.sonca.zktv.FragPlaylist.MyGlowPlayList>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+
+</LinearLayout>

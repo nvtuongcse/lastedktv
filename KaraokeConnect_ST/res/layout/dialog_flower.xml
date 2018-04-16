@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <app.sonca.flower.ViewFlowerTop
+        android:id="@+id/topFlower"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:background="@drawable/mainbg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.86"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:gravity="center_horizontal" >
+
+                <app.sonca.flower.GroupLeftFlower
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <app.sonca.flower.GroupAvatar
+                        android:id="@+id/groupAvatar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <app.sonca.flower.ViewAvatar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <app.sonca.flower.ViewAvatar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <app.sonca.flower.ViewAvatar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <app.sonca.flower.ViewAvatar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </app.sonca.flower.GroupAvatar>
+                    
+                    <app.sonca.flower.GroupGiveFlower
+                        android:id="@+id/groupGiveFlower"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <app.sonca.flower.ViewGiveFlower
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <app.sonca.flower.ViewGiveFlower
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <app.sonca.flower.ViewGiveFlower
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <app.sonca.flower.ViewGiveFlower
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <app.sonca.flower.ViewGiveFlower
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </app.sonca.flower.GroupGiveFlower>
+                    
+                    <app.sonca.flower.ViewFlowerBut
+		                android:id="@+id/button"
+		                android:layout_width="150dp"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="5dp"
+		                android:layout_marginTop="5dp" />
+
+                </app.sonca.flower.GroupLeftFlower>
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/touch_shape_line_ver" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" >
+
+                <app.sonca.flower.GroudRightFlower
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <app.sonca.flower.ViewFlowerBut
+		                android:id="@+id/button1"
+		                android:layout_width="150dp"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="5dp"
+		                android:layout_marginTop="5dp" />
+                    
+                    <app.sonca.flower.ViewFlowerBut
+		                android:id="@+id/button2"
+		                android:layout_width="150dp"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="5dp"
+		                android:layout_marginTop="5dp" />
+                    
+                    <app.sonca.flower.LuckRollView
+                        android:id="@+id/luckRollView"
+                        android:layout_width="400dp"
+                        android:layout_height="400dp" />
+                    
+                    <TextView
+                        android:id="@+id/txtLucky_result"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000" />
+                    
+                </app.sonca.flower.GroudRightFlower>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

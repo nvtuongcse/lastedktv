@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+    
+    <View
+        android:id="@+id/color_screen_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/RelativeLayout"
+        android:alpha="0.95"
+        android:background="@color/color_background_key" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:splitMotionEvents="false" >
+
+        <LinearLayout
+            android:id="@+id/LayoutPass"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:visibility="invisible" >
+
+            <vn.com.sonca.Touch.CustomView.TouchDeviceView
+                android:id="@+id/deviceView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LayoutIPPass"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:visibility="visible" >
+
+            <vn.com.sonca.Touch.CustomView.TouchDeviceViewIP
+                android:id="@+id/DeviceViewIP"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/viewColorLine"
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:layout_alignRight="@+id/RelativeLayout"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/touch_shape_line_ver" />
+
+</RelativeLayout>

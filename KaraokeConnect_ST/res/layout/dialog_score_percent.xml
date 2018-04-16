@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutScreen"
+        android:layout_width="650dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/zlight_boder_popup"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/command_7"
+            android:textColor="@color/thong_bao_1"
+            android:textSize="28sp" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/touch_shape_line_hor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <vn.com.sonca.Touch.BlockCommand.ScorePercentView
+                android:id="@+id/ScorePercentView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <vn.com.sonca.Touch.BlockCommand.ButtonPercent
+            android:id="@+id/Button"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

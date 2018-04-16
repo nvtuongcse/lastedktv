@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <vn.com.sonca.CustomView.ViewLeftNo
+        android:id="@+id/ViewLeftNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/color_screen_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ViewLeftNo"
+        android:alpha="0.95"
+        android:background="@color/color_background_key" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignRight="@+id/ViewLeftNo"
+        android:gravity="top|center"
+        android:orientation="vertical" >
+
+        <vn.com.sonca.SleepDevice.TopSleepView
+            android:id="@+id/TopSleepView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ListView
+            android:id="@+id/ListView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"
+            android:splitMotionEvents="false" />
+
+        <vn.com.sonca.SleepDevice.ButtonSleep
+            android:id="@+id/ButtonSleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewColorLine"
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:layout_alignRight="@+id/ViewLeftNo"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/touch_shape_line_ver" />
+
+</RelativeLayout>

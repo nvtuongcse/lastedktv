@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:splitMotionEvents="false" >
+
+    <vn.com.sonca.Touch.CustomView.TouchGlowView
+        android:id="@+id/GlowView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <vn.com.sonca.AddDataSong.ViewDelSong
+        android:id="@+id/myGroupSong"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
